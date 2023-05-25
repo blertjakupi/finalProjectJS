@@ -114,3 +114,61 @@ crossorigin="anonymous"></script>
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css
 " integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" 
 crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+ <style>
+  /* Responsive*/
+  @media (min-width: 768px) {
+    .navbar-nav {
+      margin-left: auto;
+    }
+  
+    .col-lg-6 {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  
+    .py-5 {
+      padding: 5rem 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  
+    .col-lg-6 {
+      flex-basis: 100%;
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1.2rem;
+    }
+  
+    .bg-light {
+      background-color: #f8f9fa;
+    }
+  
+    .bg-dark {
+      background-color: #343a40;
+    }
+  
+    .pt-2 {
+      padding-top: 0.5rem;
+    }
+  
+    .pb-0 {
+      padding-bottom: 0;
+    }
+  }
+  </style>
